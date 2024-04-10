@@ -1,0 +1,19 @@
+.range-slider-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.custom-slider {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.custom-dropdown {
+    width: 300px;
+    margin-right: 10px;
+}
