@@ -1,6 +1,7 @@
 import plotly.express as px
-from dash import Dash, dcc, html, Input, Output, dash_table
+from dash import dcc, html, Input, Output, dash_table
 import pandas as pd
+import dash
 
 # Dataset
 df = pd.read_csv('ProcessedTweets.csv')
