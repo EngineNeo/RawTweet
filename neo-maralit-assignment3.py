@@ -8,7 +8,8 @@ df = pd.read_csv('ProcessedTweets.csv')
 # Month is string
 df['Month'] = df['Month'].astype(str)
 
-app = Dash(__name__)
+app = dash.Dash(__name__)
+server = app.server
 
 months = df['Month'].unique()
 sentiment_range = [df['Sentiment'].min(), df['Sentiment'].max()]
